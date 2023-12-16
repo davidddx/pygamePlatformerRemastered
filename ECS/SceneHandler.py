@@ -1,4 +1,4 @@
-from components.Scene import Scene
+from ECS.Scene import Scene
 # this class needs a list of scenes to work.
 # can start at different scene numbers
 from debug.logger import logger
