@@ -13,4 +13,8 @@ class VisibleObject(Component ,pygame.sprite.Sprite):
         self.height = self.rect.height;
 
     def update(self):
-        gamecode.settings.screen.blit(self.sprite, (self.rect.x, self.rect.y))
+        screen = pygame.display.get_surface()
+        if not screen:
+            return None
+
+        screen.blit(self.sprite, (self.rect.x, self.rect.y))
