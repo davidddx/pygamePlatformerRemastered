@@ -5,15 +5,15 @@ from settings import SCREEN_WIDTH, SCREEN_HEIGHT, TILE_SIZE
 class Map:
     def __init__(self, mapdata, daytime="D"):
         self.Tiles = self.convertMapdataToSpritegroup(mapdata)
-        self.BackgroundTiles = self.getBackgroundSpritegroup(daytime = daytime)
+        self.BackgroundTiles = self.getBackgroundSpriteGroup(daytime = daytime)
         self.daytime = daytime
 
-    def getBackground(self, daytime):
+    def getBackgroundSpriteGroup(self, daytime):
         def generatetiles(imagedir):
             spritegroup = pygame.sprite.Group()
-            for i in range(SCREEN_WIDTH/TILE_SIZE):
-                for j in range(SCREEN_HEIGHT/TILE_SIZE):
-                    spritegroup.add(Tile(x=i, y=j, imagedir=imagedir ))
+            for i in range(int(SCREEN_WIDTH/TILE_SIZE) + 1):
+                for j in range(int(SCREEN_HEIGHT/TILE_SIZE) + 1):
+                    spritegroup.add(Tile(x=i, y=j, imagedir=imagedir).visibleobject)
             return spritegroup
         if daytime == "D":
             return generatetiles(imagedir="TileImages/BasicBlueSkyTile.png")
@@ -51,5 +51,5 @@ class Map:
 
 
     def update(self):
-        for visibleobject in self.Tiles:
+        for visibleobject in self.BackgroundTiles:
             visibleobject.update()
