@@ -9,7 +9,7 @@ class SceneHandler:
         self.scenenumber = scenenumber;
         cwd = os.getcwd()
         self.scenes = self.load_scenes()
-
+        self.currentscene = self.scenes[scenenumber]
 
     def load_scenes(self):
         cwd = os.getcwd()
@@ -29,8 +29,20 @@ class SceneHandler:
 
         return scene_modules
 
-    def changescenetonext(self):
-        logger.debug(f"changing to scene number: {self.scenenumber + 1}")
+    def changescenetonext(self, step=1):
+        if self.scenenumber >= len(self.scenes) - step:
+            return None
+        logger.debug(f"changing from scene {self.scenes[self.scenenumber]=}"
+                     f"to scener: {self.scenes[scenenumber + step]=}")
+        self.scenenumber+=step
+        return self.scenes[self.scenenumber]
+
 
     def Update(self):
-        self.currentscene.update()
+        running = true
+        while running:
+            if not self.currentscene:
+                running = false
+                break;
+            self.currentscene.update()
+        sys.exit()
