@@ -61,7 +61,7 @@ class SceneHandler:
 
             pygame.display.flip();
 
-            
+
         logger.info("Scenehandler.update has finished executing. Closing the program")
         pygame.quit();
         sys.exit()
