@@ -1,6 +1,4 @@
-from game import Game;
+from ECS.SceneHandler import SceneHandler
 from debug.logger import logger
-game = Game()
 if __name__ == '__main__':
-
-    game.run();
+    scenehandler = SceneHandler()
