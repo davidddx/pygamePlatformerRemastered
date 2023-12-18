@@ -10,6 +10,7 @@ class SceneHandler:
         cwd = os.getcwd()
         self.scenes = self.load_scenes()
         self.currentscene = self.scenes[scenenumber]
+        self.scenedone = false
 
     def load_scenes(self):
         cwd = os.getcwd()
@@ -26,7 +27,6 @@ class SceneHandler:
                     logger.debug(f"Loaded scene module: {scene_module_path}")
                 except Exception as e:
                     logger.error(f"Failed to load scene module {scene_module_path}: {e}")
-
         return scene_modules
 
     def changescenetonext(self, step=1):
@@ -37,12 +37,31 @@ class SceneHandler:
         self.scenenumber+=step
         return self.scenes[self.scenenumber]
 
-
+    def checkscenefinish(self):
+        if not self.scenedone():
+            return False
+        return True
     def Update(self):
         running = true
+        logger.info("Scenehandler.update is executing")
+        pygame.init();
+        screen = gamecode.settings.screen = pygame.display.set_mode((gamecode.settings.SCREEN_WIDTH, gamecode.settings.SCREEN_HEIGHT));
+        clock = pygame.time.Clock();
+
         while running:
-            if not self.currentscene:
-                running = false
-                break;
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = false
+            screen.fill((0, 0, 0));
             self.currentscene.update()
+            if self.checkscenefinish():
+                currentscene = self.currentscene = self.changescenetonext()
+                if not currentscene:
+                    running = false
+
+            pygame.display.flip();
+
+            
+        logger.info("Scenehandler.update has finished executing. Closing the program")
+        pygame.quit();
         sys.exit()
