@@ -18,9 +18,6 @@ class Game:
         gamecode.settings.screen = pygame.display.set_mode((gamecode.settings.SCREEN_WIDTH, gamecode.settings.SCREEN_HEIGHT));
         clock = pygame.time.Clock();
         running = self.running
-        images = pygame.sprite.Group();
-
-        amap = Map(Level1)
 
         while running:
             for event in pygame.event.get():
