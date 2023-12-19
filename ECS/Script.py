@@ -1,6 +1,7 @@
 from ECS.Entity import Component
 from debug.logger import logger
 import os, importlib
+from settings import true, false
 class Script(Component):
     def __init__(self, scriptname):
         logger.debug(f"Adding Script Component to Entity. {scriptname=}")
