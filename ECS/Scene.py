@@ -1,11 +1,12 @@
+from ECS.Systems import Systems
 class Scene:
     def __init__(self, dir):
         self.dir = dir;
-        self.scenechildren = []
+        self.sceneEntities = []
 
     def addentity(self, entity):
-        self.scenechildren.Append(entity);
+        self.sceneEntities.Append(entity);
 
     def update(self):
-        for entity in self.scenechildren:
-            entity.update()
+        Systems.PhysicsProcess(self.sceneEntities)
+        Systems.DisplayProcess(self.sceneEntities)
