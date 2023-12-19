@@ -1,27 +1,24 @@
 import pygame.display
-from Physics import *
-from VisibleObject import *
 from debug.logger import logger
-
+from ECS.Entity import Entity
 class Systems:
     @staticmethod
-    def PhysicsProcess(self, entities : list):
+    def PhysicsProcess(self, entity : Entity):
         return None;
-        for entity in entities:
-            pass  # physics stuff
+        pass #physicsStuff
     @staticmethod
-    def DisplayProcess(self, entities : list):
-        for entity in entities:
-            visComponent = entity.getComponent("VisibleObject")
-            if not visComponent:
-                continue
-            posComponent = entity.getComponent("Position")
-            if not posComponent:
-                logger.error(f"{entity = } Has VisibleObject component but no Position component")
-                continue
-            screen = pygame.display.get_surface()
-            screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
+    def DisplayProcess(self, entity : Entity):
+        visComponent = entity.getComponent("VisibleObject")
+        if not visComponent:
+            return None
+        posComponent = entity.getComponent("Position")
+        if not posComponent:
+            logger.error(f"{entity = } Has VisibleObject component but no Position component")
+            return None
+        screen = pygame.display.get_surface()
+        screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
     @staticmethod
-    def Update(self, entites : list):
-        Systems.DisplayProcess(entities= entities)
-        SYstems.PhysicsProcess(entities= entities)
+    def Update(self, entities : list):
+        for entity in entities:
+            Systems.DisplayProcess(entity= entity)
+            Systems.PhysicsProcess(entity= entity)
