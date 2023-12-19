@@ -8,5 +8,4 @@ class Scene:
         self.sceneEntities.Append(entity);
 
     def update(self):
-        Systems.PhysicsProcess(self.sceneEntities)
-        Systems.DisplayProcess(self.sceneEntities)
+        Systems.Update(self.sceneEntities);

@@ -5,12 +5,12 @@ from debug.logger import logger
 
 class Systems:
     @staticmethod
-    def PhysicsProcess(self, entities):
+    def PhysicsProcess(self, entities : list):
         return None;
         for entity in entities:
             pass  # physics stuff
     @staticmethod
-    def DisplayProcess(self, entities):
+    def DisplayProcess(self, entities : list):
         for entity in entities:
             visComponent = entity.getComponent("VisibleObject")
             if not visComponent:
@@ -21,3 +21,7 @@ class Systems:
                 continue
             screen = pygame.display.get_surface()
             screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
+    @staticmethod
+    def Update(self, entites : list):
+        Systems.DisplayProcess(entities= entities)
+        SYstems.PhysicsProcess(entities= entities)
