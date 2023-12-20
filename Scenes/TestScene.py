@@ -8,6 +8,7 @@ import os
 
 cwd = os.getcwd()
 sceneobj = Scene()
+
 image = Entity(name="image")
 image.addComponent(Position(x=0, y=0))
 image.addComponent(VisibleObject(spritedir=cwd + '/TileImages/BasicBlueSkyTile.png'))
