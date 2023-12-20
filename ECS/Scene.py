@@ -1,11 +1,11 @@
 from ECS.Systems import Systems
 class Scene:
-    def __init__(self, dir):
-        self.dir = dir;
-        self.sceneEntities = []
+    def __init__(self):
+        self.Entities = []
 
     def addentity(self, entity):
-        self.sceneEntities.Append(entity);
+        self.Entities.append(entity);
 
     def update(self):
-        Systems.Update(self.sceneEntities);
+
+        Systems.Update(entities=self.Entities);

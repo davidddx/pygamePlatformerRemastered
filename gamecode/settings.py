@@ -4,3 +4,4 @@ TILE_SIZE = 16
 false = False
 true = True
 screen = None
+cwd = None

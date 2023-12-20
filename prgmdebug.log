@@ -1,2 +1,7 @@
-2023-12-18 10:35:24,730 INFO logger has been initialized
-2023-12-18 10:35:24,741 DEBUG Loaded scene module: Scenes.TestScene
+2023-12-20 18:37:25,894 INFO logger has been initialized
+2023-12-20 18:37:25,895 DEBUG os.listdir(scenesdir)=['TestScene.py', '__pycache__']
+2023-12-20 18:37:26,297 DEBUG Loaded scene module: Scenes.TestScene
+2023-12-20 18:37:26,299 DEBUG self.scenes=[<module 'Scenes.TestScene' from 'C:\\Users\\david\\Documents\\GitHub\\pygamePlatformerRemastered\\Scenes\\TestScene.py'>]
+2023-12-20 18:37:26,299 INFO Scenehandler.update is executing
+2023-12-20 18:37:27,767 DEBUG closing application. pygame.Quit signal recieved
+2023-12-20 18:37:27,767 INFO Scenehandler.update has finished executing. Closing the program

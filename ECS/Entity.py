@@ -10,7 +10,7 @@ class Component:
 
 
 class Entity:
-    def __init__(self, name="", tags=[], components = []):
+    def __init__(self, name : str, tags=[], components = []):
         self.name = name
         self.tags = tags
         self.components = components
@@ -24,8 +24,3 @@ class Entity:
         for component in self.components:
             if component.name == componentname:
                 return component;
-
-
-    def update(self):
-        for component in self.components:
-            component.update()

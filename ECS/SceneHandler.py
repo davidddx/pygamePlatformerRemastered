@@ -1,22 +1,24 @@
 import os
 import importlib
-# this class needs a list of scenes to work.
-# can start at different scene numbers
+import pygame
 from debug.logger import logger
-
+from settings import true,false
+import gamecode
+import sys
 class SceneHandler:
     def __init__(self, scenenumber = 0):
         self.scenenumber = scenenumber;
         cwd = os.getcwd()
         self.scenes = self.load_scenes()
-        self.currentscene = self.scenes[scenenumber]
+        logger.debug(f"{self.scenes=}")
+        self.currentscenefile = self.scenes[scenenumber]
         self.scenedone = false
 
     def load_scenes(self):
         cwd = os.getcwd()
         scenesdir = os.path.join(cwd, 'Scenes')
         scene_modules = []
-
+        logger.debug(f"{os.listdir(scenesdir)=}")
         for filename in os.listdir(scenesdir):
             if filename.endswith(".py") and not filename.startswith("__"):
                 scene_module_name = filename[:-3]  # Remove the ".py" extension
@@ -38,7 +40,7 @@ class SceneHandler:
         return self.scenes[self.scenenumber]
 
     def checkscenefinish(self):
-        if not self.scenedone():
+        if not self.scenedone:
             return False
         return True
     def Update(self):
@@ -51,11 +53,13 @@ class SceneHandler:
         while running:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
+                    logger.debug("closing application. pygame.Quit signal recieved")
                     running = false
             screen.fill((0, 0, 0));
-            self.currentscene.update()
+            self.currentscenefile.sceneobj.update()
             if self.checkscenefinish():
-                currentscene = self.currentscene = self.changescenetonext()
+                logger.debug(f"current scene {self.currentscenefile} is finished. Changing to next scene.")
+                currentscene = self.currentscenefile = self.changescenetonext()
                 if not currentscene:
                     running = false
 

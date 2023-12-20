@@ -3,11 +3,11 @@ from debug.logger import logger
 from ECS.Entity import Entity
 class Systems:
     @staticmethod
-    def PhysicsProcess(self, entity : Entity):
+    def PhysicsProcess(entity : Entity):
         return None;
         pass #physicsStuff
     @staticmethod
-    def DisplayProcess(self, entity : Entity):
+    def DisplayProcess(entity : Entity):
         visComponent = entity.getComponent("VisibleObject")
         if not visComponent:
             return None
@@ -18,7 +18,7 @@ class Systems:
         screen = pygame.display.get_surface()
         screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
     @staticmethod
-    def Update(self, entities : list):
+    def Update(entities : list):
         for entity in entities:
             Systems.DisplayProcess(entity= entity)
             Systems.PhysicsProcess(entity= entity)
