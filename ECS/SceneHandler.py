@@ -53,7 +53,7 @@ class SceneHandler:
         while running:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    logger.debug("closing application. pygame.Quit signal recieved")
+                    logger.debug("Closing application. pygame.Quit signal received.")
                     running = false
             screen.fill((0, 0, 0));
             self.currentscenefile.sceneobj.update()

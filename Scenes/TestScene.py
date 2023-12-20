@@ -8,10 +8,7 @@ import os
 
 cwd = os.getcwd()
 sceneobj = Scene()
-background = Entity(name= 'background')
-for i in range(int(SCREEN_WIDTH / TILE_SIZE) + 1):
-    for j in range(int(SCREEN_HEIGHT / TILE_SIZE) + 1):
-        background.addComponent(component=VisibleObject(cwd + '/TileImages/BasicBlueSkyTile.png'))
-        background.addComponent(component=Position(x=i, y=j))
-
-sceneobj.addentity(background)
+image = Entity(name="image")
+image.addComponent(Position(x=0, y=0))
+image.addComponent(VisibleObject(spritedir=cwd + '/TileImages/BasicBlueSkyTile.png'))
+sceneobj.addentity(image)
