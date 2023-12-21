@@ -7,5 +7,4 @@ class Scene:
         self.Entities.append(entity);
 
     def update(self):
-
         Systems.Update(entities=self.Entities);
