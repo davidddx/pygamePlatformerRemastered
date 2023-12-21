@@ -1,6 +1,6 @@
 import pygame.sprite
 
-from gamecode.settings import TILE_SIZE
+from gamecode.settings import TILE_SIZE, COMPONENT_TILEMAP
 from ECS.VisibleObject import VisibleObject;
 from ECS.Physics import Position
 from ECS.Entity import Component
@@ -13,7 +13,7 @@ class Tile(Component):
 
 class Tilemap(Component):
     def __init__(self, tiles : list[list[str]]):
-        self.name = "Tilemap"
+        self.name = COMPONENT_TILEMAP
         self.Tiles = self.loadTiles(tileList= tiles);
 
     def loadTiles(self, tileList):
