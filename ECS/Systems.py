@@ -1,5 +1,6 @@
-import pygame.display
+import pygame.display, pygame.surface
 from debug.logger import logger
+from gamecode.settings import COMPONENT_VISIBLE_OBJECT, COMPONENT_TILEMAP, COMPONENT_POSITION
 from ECS.Entity import Entity
 class Systems:
     @staticmethod
@@ -7,18 +8,18 @@ class Systems:
         return None;
         pass #physicsStuff
     @staticmethod
-    def DisplayProcess(entity : Entity, screen):
-        visComponent = entity.getComponent("VisibleObject")
+    def DisplayProcess(entity : Entity, screen : pygame.surface):
+        visComponent = entity.getComponent(COMPONENT_VISIBLE_OBJECT)
         if not visComponent:
             return None
-        posComponent = entity.getComponent("Position")
+        posComponent = entity.getComponent(COMPONENT_POSITION)
         if not posComponent:
-            logger.error(f"{entity = } Has VisibleObject component but no Position component")
+            logger.error(f"{entity = } Has {COMPONENT_VISIBLE_OBJECT} component but no {COMPONENT_POSITION} component")
             return None
         screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
     @staticmethod
-    def DisplayProcessTilemap(entity : Entity, screen):
-        tilemapComponent = entity.getComponent("Tilemap")
+    def DisplayProcessTilemap(entity : Entity, screen : pygame.surface):
+        tilemapComponent = entity.getComponent(COMPONENT_TILEMAP)
         if not tilemapComponent:
             return None
         for tile in tilemapComponent:
