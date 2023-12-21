@@ -1,5 +1,5 @@
 import pygame
-from gamecode.tile import Tile
+from ECS.Tile import Tile
 from debug.logger import logger
 from settings import SCREEN_WIDTH, SCREEN_HEIGHT, TILE_SIZE
 class Map:
