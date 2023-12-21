@@ -4,11 +4,6 @@ class Component:
     def __init__(self):
         self.name = ""
 
-    @abstractmethod
-    def update(self):
-        pass
-
-
 class Entity:
     def __init__(self, name : str, tags=[], components = []):
         self.name = name
