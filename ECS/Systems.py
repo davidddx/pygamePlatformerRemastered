@@ -14,7 +14,7 @@ class Systems:
             return None
         posComponent = entity.getComponent(COMPONENT_POSITION)
         if not posComponent:
-            logger.error(f"{entity = } Has {COMPONENT_VISIBLE_OBJECT} component but no {COMPONENT_POSITION} component")
+            logger.error(f"{entity.name = } Has {COMPONENT_VISIBLE_OBJECT} component but no {COMPONENT_POSITION} component")
             return None
         screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
     @staticmethod
@@ -22,8 +22,8 @@ class Systems:
         tilemapComponent = entity.getComponent(COMPONENT_TILEMAP)
         if not tilemapComponent:
             return None
-        for tile in tilemapComponent:
-            screen.blit(tile.visibleobject.sprite, (tile.Position.x, tile.Position.y))
+        for tile in tilemapComponent.Tiles:
+            screen.blit(tile.image, (tile.Position.x, tile.Position.y))
 
     @staticmethod
     def Update(entities : list):
