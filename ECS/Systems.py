@@ -7,7 +7,7 @@ class Systems:
         return None;
         pass #physicsStuff
     @staticmethod
-    def DisplayProcess(entity : Entity):
+    def DisplayProcess(entity : Entity, screen):
         visComponent = entity.getComponent("VisibleObject")
         if not visComponent:
             return None
@@ -15,10 +15,19 @@ class Systems:
         if not posComponent:
             logger.error(f"{entity = } Has VisibleObject component but no Position component")
             return None
-        screen = pygame.display.get_surface()
         screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
     @staticmethod
+    def DisplayProcessTilemap(entity : Entity, screen):
+        tilemapComponent = entity.getComponent("Tilemap")
+        if not tilemapComponent:
+            return None
+        for tile in tilemapComponent:
+            screen.blit(tile.visibleobject.sprite, (tile.Position.x, tile.Position.y))
+
+    @staticmethod
     def Update(entities : list):
+        screen = pygame.display.get_surface()
         for entity in entities:
-            Systems.DisplayProcess(entity= entity)
+            Systems.DisplayProcessTilemap(entity= entity, screen=screen)
+            Systems.DisplayProcess(entity= entity, screen=screen)
             Systems.PhysicsProcess(entity= entity)
