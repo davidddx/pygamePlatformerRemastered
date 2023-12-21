@@ -1,7 +1,1267 @@
-2023-12-20 23:24:23,711 INFO logger has been initialized
-2023-12-20 23:24:23,712 DEBUG os.listdir(scenesdir)=['TestScene.py', '__pycache__']
-2023-12-20 23:24:23,740 DEBUG Loaded scene module: Scenes.TestScene
-2023-12-20 23:24:23,740 DEBUG self.scenes=[<module 'Scenes.TestScene' from 'C:\\Users\\david\\Documents\\GitHub\\pygamePlatformerRemastered\\Scenes\\TestScene.py'>]
-2023-12-20 23:24:23,740 INFO Scenehandler.update is executing
-2023-12-20 23:24:25,672 DEBUG Closing application. pygame.Quit signal received.
-2023-12-20 23:24:25,673 INFO Scenehandler.update has finished executing. Closing the program
+2023-12-21 16:26:34,702 INFO logger has been initialized
+2023-12-21 16:26:34,703 DEBUG os.listdir(scenesdir)=['TestScene.py', '__pycache__']
+2023-12-21 16:26:34,719 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,720 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,720 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,720 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,720 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,720 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=0
+2023-12-21 16:26:34,720 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=0
+2023-12-21 16:26:34,721 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,721 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=0
+2023-12-21 16:26:34,722 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,722 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=0
+2023-12-21 16:26:34,723 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,723 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=0
+2023-12-21 16:26:34,724 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,724 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=0
+2023-12-21 16:26:34,725 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,725 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=0
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=0
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,726 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=1
+2023-12-21 16:26:34,726 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,727 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=1
+2023-12-21 16:26:34,727 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,728 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=1
+2023-12-21 16:26:34,728 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=1
+2023-12-21 16:26:34,729 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=1
+2023-12-21 16:26:34,729 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=1
+2023-12-21 16:26:34,729 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=1
+2023-12-21 16:26:34,729 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=1
+2023-12-21 16:26:34,729 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,729 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=1
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=2
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=2
+2023-12-21 16:26:34,730 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,730 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=2
+2023-12-21 16:26:34,731 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,731 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=2
+2023-12-21 16:26:34,732 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,732 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=2
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,733 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=3
+2023-12-21 16:26:34,733 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=3
+2023-12-21 16:26:34,734 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,734 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=3
+2023-12-21 16:26:34,736 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,736 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=3
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,737 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=4
+2023-12-21 16:26:34,737 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=4
+2023-12-21 16:26:34,738 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,738 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,740 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=4
+2023-12-21 16:26:34,740 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=4
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,741 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=5
+2023-12-21 16:26:34,741 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=5
+2023-12-21 16:26:34,742 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,742 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,743 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=5
+2023-12-21 16:26:34,743 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,744 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=5
+2023-12-21 16:26:34,744 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=6
+2023-12-21 16:26:34,745 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,745 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=6
+2023-12-21 16:26:34,746 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,746 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,747 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=6
+2023-12-21 16:26:34,747 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=6
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=7
+2023-12-21 16:26:34,748 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,748 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=7
+2023-12-21 16:26:34,749 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,749 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,750 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=7
+2023-12-21 16:26:34,750 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=7
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=8
+2023-12-21 16:26:34,751 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,751 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=8
+2023-12-21 16:26:34,752 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,752 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=8
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=9
+2023-12-21 16:26:34,753 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,753 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=9
+2023-12-21 16:26:34,755 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,755 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=9
+2023-12-21 16:26:34,756 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,756 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=9
+2023-12-21 16:26:34,757 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,757 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=9
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=9
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=9
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=9
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=10
+2023-12-21 16:26:34,758 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,758 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,759 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=10
+2023-12-21 16:26:34,759 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=10
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=11
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,760 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=11
+2023-12-21 16:26:34,760 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,761 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=11
+2023-12-21 16:26:34,761 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,762 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=11
+2023-12-21 16:26:34,762 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,764 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=11
+2023-12-21 16:26:34,764 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=11
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=12
+2023-12-21 16:26:34,765 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,765 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,766 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=12
+2023-12-21 16:26:34,766 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,767 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=12
+2023-12-21 16:26:34,767 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=12
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=13
+2023-12-21 16:26:34,768 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,768 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=13
+2023-12-21 16:26:34,769 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,769 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=13
+2023-12-21 16:26:34,770 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,770 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=13
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,771 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=14
+2023-12-21 16:26:34,771 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,772 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=14
+2023-12-21 16:26:34,772 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=14
+2023-12-21 16:26:34,773 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
+2023-12-21 16:26:34,773 DEBUG Loaded scene module: Scenes.TestScene
+2023-12-21 16:26:34,773 DEBUG self.scenes=[<module 'Scenes.TestScene' from 'C:\\Users\\david\\Documents\\GitHub\\pygamePlatformerRemastered\\Scenes\\TestScene.py'>]
+2023-12-21 16:26:34,773 INFO Scenehandler.update is executing
+2023-12-21 16:26:37,037 DEBUG Closing application. pygame.Quit signal received.
+2023-12-21 16:26:37,041 INFO Scenehandler.update has finished executing. Closing the program
