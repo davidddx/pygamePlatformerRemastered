@@ -1,6 +1,6 @@
 from ECS.Scene import Scene
 from ECS.Entity import Entity
-from ECS.Physics import Position, Physics
+from ECS.Physics import Physics
 from ECS.VisibleObject import VisibleObject
 from ECS.Tile import Tilemap
 from gamecode.settings import true, false, TILE_SIZE, SCREEN_WIDTH, SCREEN_HEIGHT
@@ -13,10 +13,9 @@ blueskytiledir = cwd + '/TileImages/BasicBlueSkyTile.png'
 tmap = Entity(name="tmap")
 tmapComponent = Tilemap(tiles= World1.Level1, Tileset= {'S' : blueskytiledir} )
 tmap.addComponent(tmapComponent)
-physComponent = Physics(xvelocity= 0.001, yvelocity= 0.001, gravity=1)
-posComponent = Position()
-tmap.addComponent(physComponent)
-tmap.addComponent(posComponent)
+# physComponent = Physics(xvelocity= 0.001, yvelocity= 0.001, gravity=1)
+# tmap.addComponent(physComponent)
+# tmap.addComponent(posComponent)
 sceneobj.addentity(tmap)
 
 # image = Entity(name="image")

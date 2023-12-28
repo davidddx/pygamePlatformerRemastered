@@ -7,26 +7,26 @@ class Systems:
     def PhysicsProcess(entity : Entity):
         physicsComponent = entity.getComponent(COMPONENT_PHYSICS)
         if not physicsComponent: return None;
-        posComponent = entity.getComponent(COMPONENT_POSITION)
-        if not posComponent: logger.error(f"{entity.name = } Has {COMPONENT_PHYSICS} component but no {COMPONENT_POSITION} component")
-        posComponent.x += physicsComponent.xvelocity
+        visibleObject = entity.getComponent(COMPONENT_VISIBLE_OBJECT)
+        invisibleObject = entity.getComponent(COMPONENT_INVISIBLE_OBJECT)
+        if visibleObject:
+            visibleObject.rect.x += physicsComponent.xvelocity
+        elif invisibleObject:
+            invisibleObject.rect.x += physicsComponent.xvelocity
+        else:
+            logger.error(f"{entity.name = } Has {COMPONENT_PHYSICS} component but no {COMPONENT_VISIBLE_OBJECT} or {COMPONENT_INVISIBLE_OBJECT} component")
     @staticmethod
     def DisplayProcess(entity : Entity, screen : pygame.surface):
         visComponent = entity.getComponent(COMPONENT_VISIBLE_OBJECT)
-        if not visComponent:
-            return None
-        posComponent = entity.getComponent(COMPONENT_POSITION)
-        if not posComponent:
-            logger.error(f"{entity.name = } Has {COMPONENT_VISIBLE_OBJECT} component but no {COMPONENT_POSITION} component")
-            return None
-        screen.blit(visComponent.sprite, (posComponent.x, posComponent.y))
+        if not visComponent: return None
+        screen.blit(visComponent.sprite, (visComponent.rect.x, visComponent.rect.y))
     @staticmethod
     def DisplayProcessTilemap(entity : Entity, screen : pygame.surface):
         tilemapComponent = entity.getComponent(COMPONENT_TILEMAP)
         if not tilemapComponent:
             return None
         for tile in tilemapComponent.Tiles:
-            screen.blit(tile.image, (tile.Position.x, tile.Position.y))
+            screen.blit(tile.image, (tile.rect.x, tile.rect.y))
 
     def HandleCollision(self, entities : list):
         for i in range(len(entities)):
@@ -52,4 +52,4 @@ class Systems:
             Systems.DisplayProcessTilemap(entity= entity, screen=screen)
             Systems.DisplayProcess(entity= entity, screen=screen)
             Systems.PhysicsProcess(entity= entity)
-        Systems.HandleCollision(entities)
+        # Systems.HandleCollision(entities)

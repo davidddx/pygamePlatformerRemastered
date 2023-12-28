@@ -1,7 +1,6 @@
 import pygame
 from gamecode.settings import TILE_SIZE, COMPONENT_TILEMAP
 from ECS.VisibleObject import VisibleObject;
-from ECS.Physics import Position
 from ECS.Entity import Component
 from debug.logger import logger
 
@@ -9,8 +8,9 @@ class Tile(Component, pygame.sprite.Sprite):
     def __init__(self, x : int, y : int, image : pygame.sprite.Sprite, isCollidable=False):
         pygame.sprite.Sprite.__init__(self);
         self.image = image;
-        self.rect = self.image.get_rect();
-
+        self.rect = self.image.get_rect()
+        self.rect.x = x * TILE_SIZE
+        self.rect.y = y * TILE_SIZE
 
 class Tilemap(Component):
     def __init__(self, tiles : list[list[str]], Tileset = {}):

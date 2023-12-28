@@ -6,7 +6,6 @@ true = True
 screen = None
 cwd = None
 COMPONENT_VISIBLE_OBJECT = "VisibleObject"
-COMPONENT_POSITION = "Position"
 COMPONENT_PHYSICS = "Physics"
 COMPONENT_TILEMAP = "Tilemap"
 COMPONENT_SCRIPT = "Script"

@@ -5,10 +5,12 @@ from debug.logger import logger
 from gamecode.settings import COMPONENT_VISIBLE_OBJECT
 #image class takes the following arguments
 class VisibleObject(Component):
-    def __init__(self, spritedir):
+    def __init__(self, spritedir, posx=0, posy=0):
         self.name = COMPONENT_VISIBLE_OBJECT
         self.sprite = pygame.image.load(spritedir)
         self.rect = self.sprite.get_rect();
+        self.rect.x = posx
+        self.rect.y = posy
 
 class InvisibleObject(Component):
     def __init__(self, posx = 0, posy = 0):
