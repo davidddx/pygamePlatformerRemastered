@@ -1,11 +1,13 @@
 import pygame.display, pygame.surface
 from debug.logger import logger
-from gamecode.settings import COMPONENT_VISIBLE_OBJECT, COMPONENT_TILEMAP, COMPONENT_POSITION
+from gamecode.settings import *
 from ECS.Entity import Entity
 class Systems:
     @staticmethod
     def PhysicsProcess(entity : Entity):
-        return None;
+        physicsComponent = entity.getComponent(COMPONENT_PHYSICS)
+        if not physicsComponent: return None;
+        
         pass #physicsStuff
     @staticmethod
     def DisplayProcess(entity : Entity, screen : pygame.surface):
