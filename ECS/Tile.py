@@ -9,7 +9,7 @@ class Tile(Component, pygame.sprite.Sprite):
     def __init__(self, x : int, y : int, image : pygame.sprite.Sprite, isCollidable=False):
         pygame.sprite.Sprite.__init__(self);
         self.image = image;
-        self.Position = Position(x=x*TILE_SIZE, y=y*TILE_SIZE)
+        self.rect = self.image.get_rect();
 
 
 class Tilemap(Component):

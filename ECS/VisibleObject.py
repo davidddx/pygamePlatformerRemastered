@@ -8,6 +8,9 @@ class VisibleObject(Component):
     def __init__(self, spritedir):
         self.name = COMPONENT_VISIBLE_OBJECT
         self.sprite = pygame.image.load(spritedir)
-        rect = self.sprite.get_rect();
-        self.width = rect.width;
-        self.height = rect.height;
+        self.rect = self.sprite.get_rect();
+
+class InvisibleObject(Component):
+    def __init__(self, posx = 0, posy = 0):
+        self.name = COMPONENT_INVISIBLE_OBJECT
+        self.rect = pygame.Rect(posx, posy, 0, 0)
