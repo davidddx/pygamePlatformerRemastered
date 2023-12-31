@@ -13,7 +13,7 @@ blueskytiledir = cwd + '/TileImages/BasicBlueSkyTile.png'
 
 phystest = Entity(name="phystest")
 phystest.addComponent(VisibleObject(spritedir=blueskytiledir))
-phystest.addComponent(Physics(xvelocity = 0.8, yvelocity=0.001, gravity = 0.01))
+phystest.addComponent(Physics(xvelocity = 0.5, yvelocity=0.001, gravity = 0.01))
 sceneobj.addentity(phystest)
 
 # tmap = Entity(name="tmap")
