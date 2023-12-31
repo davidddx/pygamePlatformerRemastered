@@ -1,1267 +1,1105 @@
-2023-12-28 16:33:37,436 INFO logger has been initialized
-2023-12-28 16:33:37,437 DEBUG os.listdir(scenesdir)=['TestScene.py', '__pycache__']
-2023-12-28 16:33:37,453 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=0
-2023-12-28 16:33:37,453 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,453 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=0
-2023-12-28 16:33:37,453 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,453 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=0
-2023-12-28 16:33:37,453 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,453 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=0
-2023-12-28 16:33:37,453 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,454 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=0
-2023-12-28 16:33:37,454 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,454 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=0
-2023-12-28 16:33:37,454 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,454 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=0
-2023-12-28 16:33:37,454 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,454 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=0
-2023-12-28 16:33:37,454 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=0
-2023-12-28 16:33:37,455 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,455 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,456 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=0
-2023-12-28 16:33:37,456 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,457 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=0
-2023-12-28 16:33:37,457 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=0
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=0
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=0
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=1
-2023-12-28 16:33:37,458 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,458 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,459 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=1
-2023-12-28 16:33:37,459 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=1
-2023-12-28 16:33:37,460 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,460 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=1
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=2
-2023-12-28 16:33:37,461 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,461 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,462 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=2
-2023-12-28 16:33:37,462 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,463 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=2
-2023-12-28 16:33:37,463 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=2
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=3
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=3
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=3
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=3
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,464 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=3
-2023-12-28 16:33:37,464 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=3
-2023-12-28 16:33:37,465 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,465 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,466 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=3
-2023-12-28 16:33:37,466 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=3
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=4
-2023-12-28 16:33:37,468 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,468 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=4
-2023-12-28 16:33:37,469 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,469 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=4
-2023-12-28 16:33:37,470 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,470 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,471 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=5
-2023-12-28 16:33:37,471 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=5
-2023-12-28 16:33:37,473 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,473 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=5
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=6
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=6
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=6
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,474 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=6
-2023-12-28 16:33:37,474 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,475 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=6
-2023-12-28 16:33:37,475 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,475 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=6
-2023-12-28 16:33:37,475 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,475 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=6
-2023-12-28 16:33:37,475 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,475 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=6
-2023-12-28 16:33:37,475 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,475 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=6
-2023-12-28 16:33:37,475 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=6
-2023-12-28 16:33:37,476 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=6
-2023-12-28 16:33:37,476 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=6
-2023-12-28 16:33:37,476 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=6
-2023-12-28 16:33:37,476 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=6
-2023-12-28 16:33:37,476 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,476 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,477 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=6
-2023-12-28 16:33:37,477 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,478 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=6
-2023-12-28 16:33:37,478 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,478 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=6
-2023-12-28 16:33:37,478 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,478 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=6
-2023-12-28 16:33:37,478 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,478 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=6
-2023-12-28 16:33:37,478 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,478 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=6
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=7
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=7
-2023-12-28 16:33:37,479 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,479 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=7
-2023-12-28 16:33:37,480 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,480 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=7
-2023-12-28 16:33:37,481 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,481 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=7
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=8
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=8
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=8
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=8
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=8
-2023-12-28 16:33:37,482 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,482 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=8
-2023-12-28 16:33:37,484 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,484 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,485 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=8
-2023-12-28 16:33:37,485 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=8
-2023-12-28 16:33:37,486 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,486 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,487 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=9
-2023-12-28 16:33:37,487 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,488 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=9
-2023-12-28 16:33:37,488 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,490 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=9
-2023-12-28 16:33:37,490 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,491 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=9
-2023-12-28 16:33:37,491 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=9
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=9
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=9
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=9
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,493 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=10
-2023-12-28 16:33:37,493 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,494 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=10
-2023-12-28 16:33:37,494 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=10
-2023-12-28 16:33:37,495 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,495 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=10
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=10
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=10
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=10
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=10
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,496 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=11
-2023-12-28 16:33:37,496 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,497 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=11
-2023-12-28 16:33:37,497 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=11
-2023-12-28 16:33:37,498 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,498 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=11
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=12
-2023-12-28 16:33:37,499 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,499 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,500 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=12
-2023-12-28 16:33:37,500 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=12
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,501 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=13
-2023-12-28 16:33:37,501 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=13
-2023-12-28 16:33:37,502 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,502 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=13
-2023-12-28 16:33:37,503 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,503 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=13
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=0 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=1 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=2 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=3 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=4 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=5 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=6 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=7 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=8 | yval=14
-2023-12-28 16:33:37,504 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,504 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=9 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=10 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=11 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=12 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=13 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=14 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=15 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,505 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=16 | yval=14
-2023-12-28 16:33:37,505 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=17 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=18 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=19 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=20 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=21 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=22 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=23 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=24 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=25 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=26 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=27 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=28 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=29 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=30 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,506 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=31 | yval=14
-2023-12-28 16:33:37,506 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=32 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=33 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=34 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=35 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=36 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=37 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=38 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=39 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=40 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG tile=<Tile Sprite(in 0 groups)> | xval=41 | yval=14
-2023-12-28 16:33:37,507 DEBUG tile.image=<Surface(16x16x32, global_alpha=255)>
-2023-12-28 16:33:37,507 DEBUG Loaded scene module: Scenes.TestScene
-2023-12-28 16:33:37,507 DEBUG self.scenes=[<module 'Scenes.TestScene' from 'C:\\Users\\david\\Documents\\GitHub\\pygamePlatformerRemastered\\Scenes\\TestScene.py'>]
-2023-12-28 16:33:37,507 INFO Scenehandler.update is executing
-2023-12-28 16:33:40,047 DEBUG Closing application. pygame.Quit signal received.
-2023-12-28 16:33:40,051 INFO Scenehandler.update has finished executing. Closing the program
+2023-12-30 22:00:10,618 INFO logger has been initialized
+2023-12-30 22:00:10,620 DEBUG os.listdir(scenesdir)=['TestScene.py', '__pycache__']
+2023-12-30 22:00:10,636 DEBUG Loaded scene module: Scenes.TestScene
+2023-12-30 22:00:10,636 DEBUG self.scenes=[<module 'Scenes.TestScene' from 'C:\\Users\\david\\Documents\\GitHub\\pygamePlatformerRemastered\\Scenes\\TestScene.py'>]
+2023-12-30 22:00:10,636 INFO Scenehandler.update is executing
+2023-12-30 22:00:11,405 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.011, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,421 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.020999999999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,438 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.031, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,454 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.041, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,470 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.051000000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,486 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.061000000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,503 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.07100000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,520 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.081, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,536 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.091, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,554 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.10099999999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,570 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.11099999999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,586 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.12099999999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,603 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.13099999999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,619 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.141, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,636 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.151, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,652 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.161, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,669 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.171, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,685 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.18100000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,702 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.19100000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,717 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.20100000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,735 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.21100000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,751 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.22100000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,768 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.23100000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,784 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.24100000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,800 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.25100000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,816 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.26100000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,833 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.2710000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,849 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.2810000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,865 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.2910000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,881 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.3010000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,898 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.3110000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,914 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.3210000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,930 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.3310000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,948 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.34100000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,965 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.35100000000000015, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,981 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.36100000000000015, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:11,997 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.37100000000000016, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,014 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.38100000000000017, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,029 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.3910000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,046 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.4010000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,063 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.4110000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,079 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.4210000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,097 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.4310000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,114 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.4410000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,130 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.45100000000000023, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,148 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.46100000000000024, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,164 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.47100000000000025, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,180 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.48100000000000026, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,197 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.49100000000000027, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,213 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5010000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,229 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5110000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,246 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5210000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,263 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5310000000000002, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,279 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5410000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,296 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5510000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,313 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5610000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,329 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5710000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,345 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5810000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,361 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.5910000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,378 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6010000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,394 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6110000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,412 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6210000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,428 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6310000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,445 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6410000000000003, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,461 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6510000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,479 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6610000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,495 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6710000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,512 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6810000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,528 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.6910000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,544 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7010000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,562 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7110000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,578 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7210000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,595 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7310000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,613 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7410000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,630 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7510000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,646 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7610000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,662 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7710000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,679 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7810000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,695 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.7910000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,712 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8010000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,729 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8110000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,745 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8210000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,762 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8310000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,778 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8410000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,795 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8510000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,811 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8610000000000005, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,828 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8710000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,844 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8810000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,860 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.8910000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,877 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9010000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,894 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9110000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,910 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9210000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,927 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9310000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,943 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9410000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,960 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9510000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,976 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9610000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:12,993 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9710000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:13,009 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9810000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:13,025 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=0.9910000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=0
+2023-12-30 22:00:13,042 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0010000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=1
+2023-12-30 22:00:13,059 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0110000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=2
+2023-12-30 22:00:13,075 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0210000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=3
+2023-12-30 22:00:13,092 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0310000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=4
+2023-12-30 22:00:13,108 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0410000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=5
+2023-12-30 22:00:13,125 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0510000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=6
+2023-12-30 22:00:13,141 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0610000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=7
+2023-12-30 22:00:13,158 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0710000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=8
+2023-12-30 22:00:13,174 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0810000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=9
+2023-12-30 22:00:13,191 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.0910000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=10
+2023-12-30 22:00:13,207 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1010000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=11
+2023-12-30 22:00:13,224 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1110000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=12
+2023-12-30 22:00:13,241 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1210000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=13
+2023-12-30 22:00:13,257 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1310000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=14
+2023-12-30 22:00:13,274 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1410000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=15
+2023-12-30 22:00:13,290 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1510000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=16
+2023-12-30 22:00:13,307 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1610000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=17
+2023-12-30 22:00:13,324 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1710000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=18
+2023-12-30 22:00:13,340 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1810000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=19
+2023-12-30 22:00:13,357 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.1910000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=20
+2023-12-30 22:00:13,374 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2010000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=21
+2023-12-30 22:00:13,390 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2110000000000007, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=22
+2023-12-30 22:00:13,406 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2210000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=23
+2023-12-30 22:00:13,424 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2310000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=24
+2023-12-30 22:00:13,440 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2410000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=25
+2023-12-30 22:00:13,457 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2510000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=26
+2023-12-30 22:00:13,474 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2610000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=27
+2023-12-30 22:00:13,490 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2710000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=28
+2023-12-30 22:00:13,507 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2810000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=29
+2023-12-30 22:00:13,523 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.2910000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=30
+2023-12-30 22:00:13,539 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3010000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=31
+2023-12-30 22:00:13,557 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3110000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=32
+2023-12-30 22:00:13,573 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3210000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=33
+2023-12-30 22:00:13,590 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3310000000000008, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=34
+2023-12-30 22:00:13,606 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3410000000000009, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=35
+2023-12-30 22:00:13,622 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3510000000000009, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=36
+2023-12-30 22:00:13,639 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3610000000000009, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=37
+2023-12-30 22:00:13,656 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.3710000000000009, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=38
+2023-12-30 22:00:13,673 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.381000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=39
+2023-12-30 22:00:13,689 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.391000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=40
+2023-12-30 22:00:13,706 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.401000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=41
+2023-12-30 22:00:13,723 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.411000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=42
+2023-12-30 22:00:13,739 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.421000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=43
+2023-12-30 22:00:13,757 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.431000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=44
+2023-12-30 22:00:13,773 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.441000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=45
+2023-12-30 22:00:13,791 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.451000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=46
+2023-12-30 22:00:13,808 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.461000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=47
+2023-12-30 22:00:13,824 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.471000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=48
+2023-12-30 22:00:13,841 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.481000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=49
+2023-12-30 22:00:13,860 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.491000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=50
+2023-12-30 22:00:13,876 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.501000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=51
+2023-12-30 22:00:13,892 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.511000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=52
+2023-12-30 22:00:13,908 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.521000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=53
+2023-12-30 22:00:13,925 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.531000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=54
+2023-12-30 22:00:13,943 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.541000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=55
+2023-12-30 22:00:13,959 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.551000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=56
+2023-12-30 22:00:13,975 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.561000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=57
+2023-12-30 22:00:13,992 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.571000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=58
+2023-12-30 22:00:14,009 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.581000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=59
+2023-12-30 22:00:14,025 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.591000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=60
+2023-12-30 22:00:14,042 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.601000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=61
+2023-12-30 22:00:14,058 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.611000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=62
+2023-12-30 22:00:14,074 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.621000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=63
+2023-12-30 22:00:14,091 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6310000000000011, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=64
+2023-12-30 22:00:14,107 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6410000000000011, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=65
+2023-12-30 22:00:14,123 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6510000000000011, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=66
+2023-12-30 22:00:14,139 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6610000000000011, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=67
+2023-12-30 22:00:14,155 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6710000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=68
+2023-12-30 22:00:14,171 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6810000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=69
+2023-12-30 22:00:14,188 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.6910000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=70
+2023-12-30 22:00:14,204 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7010000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=71
+2023-12-30 22:00:14,221 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7110000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=72
+2023-12-30 22:00:14,238 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7210000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=73
+2023-12-30 22:00:14,254 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7310000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=74
+2023-12-30 22:00:14,270 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7410000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=75
+2023-12-30 22:00:14,288 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7510000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=76
+2023-12-30 22:00:14,304 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7610000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=77
+2023-12-30 22:00:14,321 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7710000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=78
+2023-12-30 22:00:14,338 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7810000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=79
+2023-12-30 22:00:14,355 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.7910000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=80
+2023-12-30 22:00:14,371 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8010000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=81
+2023-12-30 22:00:14,387 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8110000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=82
+2023-12-30 22:00:14,404 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8210000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=83
+2023-12-30 22:00:14,420 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8310000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=84
+2023-12-30 22:00:14,437 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8410000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=85
+2023-12-30 22:00:14,453 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8510000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=86
+2023-12-30 22:00:14,469 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8610000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=87
+2023-12-30 22:00:14,487 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8710000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=88
+2023-12-30 22:00:14,504 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8810000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=89
+2023-12-30 22:00:14,521 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.8910000000000013, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=90
+2023-12-30 22:00:14,537 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9010000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=91
+2023-12-30 22:00:14,553 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9110000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=92
+2023-12-30 22:00:14,570 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9210000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=93
+2023-12-30 22:00:14,588 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9310000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=94
+2023-12-30 22:00:14,604 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9410000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=95
+2023-12-30 22:00:14,622 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9510000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=96
+2023-12-30 22:00:14,638 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9610000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=97
+2023-12-30 22:00:14,654 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9710000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=98
+2023-12-30 22:00:14,670 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9810000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=99
+2023-12-30 22:00:14,687 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=1.9910000000000014, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=100
+2023-12-30 22:00:14,704 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0010000000000012, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=102
+2023-12-30 22:00:14,720 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.011000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=104
+2023-12-30 22:00:14,736 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.021000000000001, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=106
+2023-12-30 22:00:14,752 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0310000000000006, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=108
+2023-12-30 22:00:14,769 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0410000000000004, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=110
+2023-12-30 22:00:14,786 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.051, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=112
+2023-12-30 22:00:14,803 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.061, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=114
+2023-12-30 22:00:14,819 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0709999999999997, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=116
+2023-12-30 22:00:14,835 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0809999999999995, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=118
+2023-12-30 22:00:14,852 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.0909999999999993, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=120
+2023-12-30 22:00:14,868 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.100999999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=122
+2023-12-30 22:00:14,883 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.110999999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=124
+2023-12-30 22:00:14,900 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.1209999999999987, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=126
+2023-12-30 22:00:14,917 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.1309999999999985, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=128
+2023-12-30 22:00:14,934 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.1409999999999982, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=130
+2023-12-30 22:00:14,950 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.150999999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=132
+2023-12-30 22:00:14,967 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.160999999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=134
+2023-12-30 22:00:14,983 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.1709999999999976, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=136
+2023-12-30 22:00:14,999 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.1809999999999974, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=138
+2023-12-30 22:00:15,015 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.190999999999997, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=140
+2023-12-30 22:00:15,033 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.200999999999997, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=142
+2023-12-30 22:00:15,049 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2109999999999967, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=144
+2023-12-30 22:00:15,065 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2209999999999965, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=146
+2023-12-30 22:00:15,081 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2309999999999963, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=148
+2023-12-30 22:00:15,098 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.240999999999996, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=150
+2023-12-30 22:00:15,115 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.250999999999996, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=152
+2023-12-30 22:00:15,131 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2609999999999957, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=154
+2023-12-30 22:00:15,148 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2709999999999955, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=156
+2023-12-30 22:00:15,164 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.2809999999999953, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=158
+2023-12-30 22:00:15,180 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.290999999999995, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=160
+2023-12-30 22:00:15,197 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.300999999999995, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=162
+2023-12-30 22:00:15,214 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.3109999999999946, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=164
+2023-12-30 22:00:15,231 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.3209999999999944, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=166
+2023-12-30 22:00:15,247 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.330999999999994, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=168
+2023-12-30 22:00:15,263 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.340999999999994, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=170
+2023-12-30 22:00:15,280 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.3509999999999938, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=172
+2023-12-30 22:00:15,298 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.3609999999999935, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=174
+2023-12-30 22:00:15,314 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.3709999999999933, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=176
+2023-12-30 22:00:15,330 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.380999999999993, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=178
+2023-12-30 22:00:15,347 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.390999999999993, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=180
+2023-12-30 22:00:15,363 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4009999999999927, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=182
+2023-12-30 22:00:15,379 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4109999999999925, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=184
+2023-12-30 22:00:15,395 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4209999999999923, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=186
+2023-12-30 22:00:15,413 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.430999999999992, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=188
+2023-12-30 22:00:15,429 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.440999999999992, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=190
+2023-12-30 22:00:15,446 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4509999999999916, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=192
+2023-12-30 22:00:15,463 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4609999999999914, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=194
+2023-12-30 22:00:15,479 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.470999999999991, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=196
+2023-12-30 22:00:15,495 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.480999999999991, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=198
+2023-12-30 22:00:15,512 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.4909999999999908, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=200
+2023-12-30 22:00:15,529 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5009999999999906, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=202
+2023-12-30 22:00:15,546 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5109999999999904, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=204
+2023-12-30 22:00:15,562 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.52099999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=206
+2023-12-30 22:00:15,579 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.53099999999999, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=208
+2023-12-30 22:00:15,595 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5409999999999897, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=210
+2023-12-30 22:00:15,612 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5509999999999895, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=212
+2023-12-30 22:00:15,628 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5609999999999893, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=214
+2023-12-30 22:00:15,644 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.570999999999989, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=216
+2023-12-30 22:00:15,661 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.580999999999989, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=218
+2023-12-30 22:00:15,677 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.5909999999999886, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=220
+2023-12-30 22:00:15,694 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.6009999999999884, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=222
+2023-12-30 22:00:15,710 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.610999999999988, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=224
+2023-12-30 22:00:15,726 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.620999999999988, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=226
+2023-12-30 22:00:15,742 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.630999999999988, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=228
+2023-12-30 22:00:15,758 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.6409999999999876, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=230
+2023-12-30 22:00:15,774 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.6509999999999874, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=232
+2023-12-30 22:00:15,791 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.660999999999987, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=234
+2023-12-30 22:00:15,808 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.670999999999987, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=236
+2023-12-30 22:00:15,824 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.6809999999999867, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=238
+2023-12-30 22:00:15,840 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.6909999999999865, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=240
+2023-12-30 22:00:15,856 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7009999999999863, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=242
+2023-12-30 22:00:15,872 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.710999999999986, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=244
+2023-12-30 22:00:15,889 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.720999999999986, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=246
+2023-12-30 22:00:15,905 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7309999999999857, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=248
+2023-12-30 22:00:15,921 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7409999999999854, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=250
+2023-12-30 22:00:15,938 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7509999999999852, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=252
+2023-12-30 22:00:15,954 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.760999999999985, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=254
+2023-12-30 22:00:15,971 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.770999999999985, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=256
+2023-12-30 22:00:15,988 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7809999999999846, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=258
+2023-12-30 22:00:16,004 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.7909999999999844, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=260
+2023-12-30 22:00:16,020 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.800999999999984, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=262
+2023-12-30 22:00:16,036 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.810999999999984, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=264
+2023-12-30 22:00:16,053 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8209999999999837, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=266
+2023-12-30 22:00:16,069 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8309999999999835, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=268
+2023-12-30 22:00:16,086 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8409999999999833, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=270
+2023-12-30 22:00:16,102 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.850999999999983, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=272
+2023-12-30 22:00:16,118 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.860999999999983, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=274
+2023-12-30 22:00:16,136 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8709999999999827, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=276
+2023-12-30 22:00:16,152 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8809999999999825, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=278
+2023-12-30 22:00:16,168 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.8909999999999823, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=280
+2023-12-30 22:00:16,184 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.900999999999982, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=282
+2023-12-30 22:00:16,200 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.910999999999982, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=284
+2023-12-30 22:00:16,216 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.9209999999999816, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=286
+2023-12-30 22:00:16,233 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.9309999999999814, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=288
+2023-12-30 22:00:16,249 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.940999999999981, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=290
+2023-12-30 22:00:16,266 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.950999999999981, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=292
+2023-12-30 22:00:16,282 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.9609999999999808, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=294
+2023-12-30 22:00:16,299 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.9709999999999805, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=296
+2023-12-30 22:00:16,316 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.9809999999999803, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=298
+2023-12-30 22:00:16,333 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=2.99099999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=300
+2023-12-30 22:00:16,350 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.00099999999998, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=303
+2023-12-30 22:00:16,367 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.0109999999999797, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=306
+2023-12-30 22:00:16,383 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.0209999999999795, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=309
+2023-12-30 22:00:16,400 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.0309999999999793, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=312
+2023-12-30 22:00:16,417 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.040999999999979, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=315
+2023-12-30 22:00:16,432 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.050999999999979, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=318
+2023-12-30 22:00:16,449 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.0609999999999786, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=321
+2023-12-30 22:00:16,467 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.0709999999999784, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=324
+2023-12-30 22:00:16,484 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.080999999999978, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=327
+2023-12-30 22:00:16,500 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.090999999999978, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=330
+2023-12-30 22:00:16,517 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1009999999999778, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=333
+2023-12-30 22:00:16,533 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1109999999999776, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=336
+2023-12-30 22:00:16,550 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1209999999999773, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=339
+2023-12-30 22:00:16,567 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.130999999999977, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=342
+2023-12-30 22:00:16,583 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.140999999999977, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=345
+2023-12-30 22:00:16,600 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1509999999999767, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=348
+2023-12-30 22:00:16,617 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1609999999999765, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=351
+2023-12-30 22:00:16,632 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.1709999999999763, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=354
+2023-12-30 22:00:16,649 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.180999999999976, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=357
+2023-12-30 22:00:16,665 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.190999999999976, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=360
+2023-12-30 22:00:16,681 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.2009999999999756, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=363
+2023-12-30 22:00:16,697 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.2109999999999754, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=366
+2023-12-30 22:00:16,714 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.220999999999975, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=369
+2023-12-30 22:00:16,730 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.230999999999975, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=372
+2023-12-30 22:00:16,747 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.240999999999975, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=375
+2023-12-30 22:00:16,763 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.2509999999999746, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=378
+2023-12-30 22:00:16,779 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.2609999999999744, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=381
+2023-12-30 22:00:16,796 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.270999999999974, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=384
+2023-12-30 22:00:16,812 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.280999999999974, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=387
+2023-12-30 22:00:16,829 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.2909999999999737, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=390
+2023-12-30 22:00:16,847 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3009999999999735, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=393
+2023-12-30 22:00:16,862 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3109999999999733, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=396
+2023-12-30 22:00:16,878 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.320999999999973, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=399
+2023-12-30 22:00:16,894 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.330999999999973, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=402
+2023-12-30 22:00:16,910 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3409999999999727, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=405
+2023-12-30 22:00:16,926 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3509999999999724, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=408
+2023-12-30 22:00:16,942 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3609999999999722, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=411
+2023-12-30 22:00:16,960 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.370999999999972, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=414
+2023-12-30 22:00:16,977 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.380999999999972, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=417
+2023-12-30 22:00:16,993 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.3909999999999716, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=420
+2023-12-30 22:00:17,009 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4009999999999714, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=423
+2023-12-30 22:00:17,026 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.410999999999971, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=426
+2023-12-30 22:00:17,044 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.420999999999971, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=429
+2023-12-30 22:00:17,060 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4309999999999707, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=432
+2023-12-30 22:00:17,077 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4409999999999705, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=435
+2023-12-30 22:00:17,093 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4509999999999703, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=438
+2023-12-30 22:00:17,110 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.46099999999997, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=441
+2023-12-30 22:00:17,126 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.47099999999997, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=444
+2023-12-30 22:00:17,142 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4809999999999697, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=447
+2023-12-30 22:00:17,159 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.4909999999999695, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=450
+2023-12-30 22:00:17,175 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5009999999999692, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=453
+2023-12-30 22:00:17,191 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.510999999999969, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=456
+2023-12-30 22:00:17,208 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.520999999999969, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=459
+2023-12-30 22:00:17,224 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5309999999999686, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=462
+2023-12-30 22:00:17,242 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5409999999999684, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=465
+2023-12-30 22:00:17,258 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.550999999999968, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=468
+2023-12-30 22:00:17,275 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.560999999999968, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=471
+2023-12-30 22:00:17,291 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5709999999999678, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=474
+2023-12-30 22:00:17,308 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5809999999999675, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=477
+2023-12-30 22:00:17,325 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.5909999999999673, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=480
+2023-12-30 22:00:17,342 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.600999999999967, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=483
+2023-12-30 22:00:17,359 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.610999999999967, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=486
+2023-12-30 22:00:17,375 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.6209999999999667, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=489
+2023-12-30 22:00:17,392 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.6309999999999665, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=492
+2023-12-30 22:00:17,408 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.6409999999999663, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=495
+2023-12-30 22:00:17,424 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.650999999999966, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=498
+2023-12-30 22:00:17,575 DEBUG Closing application. pygame.Quit signal received.
+2023-12-30 22:00:17,575 DEBUG entity.name='phystest' | physicsComponent.gravity=0.01 |
+ physicsComponent.yvelocity=3.660999999999966, physicsComponent.xvelocity=0.8 
+visibleObject.rect.x=0 | visibleObject.rect.y=501
+2023-12-30 22:00:17,576 INFO Scenehandler.update has finished executing. Closing the program
