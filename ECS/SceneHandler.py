@@ -49,8 +49,9 @@ class SceneHandler:
         pygame.init();
         screen = gamecode.settings.screen = pygame.display.set_mode((gamecode.settings.SCREEN_WIDTH, gamecode.settings.SCREEN_HEIGHT));
         clock = pygame.time.Clock();
-
+        fps = 60
         while running:
+            clock.tick(fps)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     logger.debug("Closing application. pygame.Quit signal received.")
