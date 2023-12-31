@@ -10,16 +10,16 @@ class Systems:
         visibleObject = entity.getComponent(COMPONENT_VISIBLE_OBJECT)
         invisibleObject = entity.getComponent(COMPONENT_INVISIBLE_OBJECT)
         if visibleObject:
-            visibleObject.rect.x += physicsComponent.xvelocity
+            visibleObject.rect.x = int(round(visibleObject.rect.x + physicsComponent.xvelocity))
             physicsComponent.yvelocity += physicsComponent.gravity
-            visibleObject.rect.y += physicsComponent.yvelocity
+            visibleObject.rect.y = int(round(visibleObject.rect.y + physicsComponent.yvelocity))
             logger.debug(f"{entity.name=} | {physicsComponent.gravity=} |\n"
                          f" {physicsComponent.yvelocity=}, {physicsComponent.xvelocity=} \n"
                          f"{visibleObject.rect.x=} | {visibleObject.rect.y=}")
         elif invisibleObject:
-            invisibleObject.rect.x += physicsComponent.xvelocity
+            invisibleObject.rect.x = int(round(invisibleObject.rect.x + physicsComponent.xvelocity))
             physicsComponent.yvelocity += physicsComponent.gravity
-            invisibleObject.rect.y += physicsComponent.yvelocity
+            invisibleObject.rect.y = int(round(invisibleObject.rect.y + physicsComponent.yvelocity))
             logger.debug(f"{entity.name=} | {physicsComponent.gravity=} |\n"
                          f" {physicsComponent.yvelocity=}, {physicsComponent.xvelocity=} \n"
                          f"{invisibleObject.rect.x=} | {invisibleObject.rect.y=}")
